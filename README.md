@@ -3,7 +3,7 @@
 Deterministic detectors over real agent session history — built from daily
 **opencode** use, portable to Belay's Claude Code / Codex pipeline.
 
-I use opencode daily (not Claude Code). opencode stores history in local
+I use opencode daily . opencode stores history in local
 SQLite (`~/.local/share/opencode/opencode.db`: `session` / `message` /
 `part` tables) instead of Claude's `*.jsonl` transcripts — same idea,
 different container. This repo implements Belay-style deterministic analysis
